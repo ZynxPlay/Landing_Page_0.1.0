@@ -19,8 +19,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "ZynxPlay - A Indie Games Platform",
   description:
-    "Discover and play amazing indie games on ZynxPlay, the ultimate platform for independent game developers and players.",
-  generator: "ZynxPlay Landing Page",
+    "A Indie Games Platform",
   keywords: ["indie games", "gaming platform", "game discovery", "ZynxPlay", "Discord", "embedded app"],
   authors: [{ name: "Tutankhamal" }, { name: "ZynxPlay" }],
   creator: "Tutankhamal",
@@ -49,9 +48,9 @@ export const metadata: Metadata = {
     siteName: "ZynxPlay",
     images: [
       {
-        url: "/zynxplay_banner_bg_transparent.webp",
-        width: 1200,
-        height: 630,
+        url: "https://i.imgur.com/bjYGqOM.gif",
+        width: 680,
+        height: 240,
         alt: "ZynxPlay - A Indie Games Platform",
         type: "image/webp",
       },
@@ -64,10 +63,10 @@ export const metadata: Metadata = {
     title: "ZynxPlay - A Indie Games Platform",
     description:
       "Discover and play amazing indie games on ZynxPlay, the ultimate platform for independent game developers and players.",
-    creator: "@ZynxPlay",
+    creator: "@Tutankhamal",
     images: [
       {
-        url: "/zynxplay_banner_bg_transparent.webp",
+        url: "https://i.imgur.com/bjYGqOM.gif",
         alt: "ZynxPlay - A Indie Games Platform",
       },
     ],
