@@ -21,8 +21,26 @@ export const metadata: Metadata = {
   description:
     "Discover and play amazing indie games on ZynxPlay, the ultimate platform for independent game developers and players.",
   generator: "ZynxPlay Landing Page",
-  keywords: ["indie games", "gaming platform", "game discovery", "ZynxPlay"],
+  keywords: ["indie games", "gaming platform", "game discovery", "ZynxPlay", "Discord", "embedded app"],
   authors: [{ name: "Tutankhamal" }, { name: "ZynxPlay" }],
+  creator: "Tutankhamal",
+  publisher: "ZynxPlay",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
   openGraph: {
     title: "ZynxPlay - A Indie Games Platform",
     description:
@@ -31,10 +49,11 @@ export const metadata: Metadata = {
     siteName: "ZynxPlay",
     images: [
       {
-        url: "https://qyucubbl29wl9pia.public.blob.vercel-storage.com/zynxplay_banner_bg_transparent.webp",
-        width: 680,
-        height: 240,
+        url: "/zynxplay_banner_bg_transparent.webp",
+        width: 1200,
+        height: 630,
         alt: "ZynxPlay - A Indie Games Platform",
+        type: "image/webp",
       },
     ],
     locale: "en_US",
@@ -45,12 +64,20 @@ export const metadata: Metadata = {
     title: "ZynxPlay - A Indie Games Platform",
     description:
       "Discover and play amazing indie games on ZynxPlay, the ultimate platform for independent game developers and players.",
-    images: ["https://qyucubbl29wl9pia.public.blob.vercel-storage.com/zynxplay_banner_bg_transparent.webp"],
+    creator: "@ZynxPlay",
+    images: [
+      {
+        url: "/zynxplay_banner_bg_transparent.webp",
+        alt: "ZynxPlay - A Indie Games Platform",
+      },
+    ],
   },
   icons: {
     icon: "/favicon.png",
     apple: "/favicon.png",
+    shortcut: "/favicon.png",
   },
+  manifest: "/manifest.json",
 }
 
 export default function RootLayout({

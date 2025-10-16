@@ -1,0 +1,21 @@
+{
+  "name": "ZynxPlay - A Indie Games Platform",
+  "short_name": "ZynxPlay",
+  "description": "Discover and play amazing indie games on ZynxPlay, the ultimate platform for independent game developers and players.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ff64ff",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
